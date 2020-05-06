@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+/* font-family : 'Lato', sans-serif; */
+
+
+
+/* COMMON */
+boby {
+	font-family: 'Lato', sans-serif;
+	height: 5000px;
+}
+
+.wrapper {
+	max-width: width 980px;
+	margin: auto;
+	padding: 40px 16px;
+}
+
+.wrapper>.title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 16px 0;
+}
+
+.wrapper>.slogan {
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 16px 0;
+	font-style: italic;
+}
+
+.wrapper>.desc {
+	line-height: 150%;
+	padding: 16px 0;
+}
+
+.wrapper>.works {
+	line-height: 150%;
+}
+
+.banner {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+.banner>h2 {
+	font-weight: normal;
+	font-size: 36px;
+	letter-spacing: 10px;
+	color: white;
+	text-align: center;
+	padding: 200px 0;
+}
+
+/* header */
+.header {
+	color: #555;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 3px 6px rgb(0, 0, 0, 0.3);
+}
+
+.navi-wrap {
+	float: left;
+}
+
+.navi-wrap>a {
+	padding: 16px;
+	float: left;
+	color: inherit;
+	text-decoration: none;
+}
+
+.navi-wrap>a:hover {
+	color: black;
+	background-color: #ccc;
+}
+
+.navi-wrap>a:not(:first-child) {
+	display: none;
+}
+
+.search-wrap {
+	float: right;
+}
+
+.search-wrap>.fa-bars {
+	padding: 16px;
+}
+
+.search-wrap>.fa-bars:hover {
+	background-color: black;
+	color: white;
+}
+
+.search-wrap>.fa-search {
+	padding: 16px;
+	cursor: pointer;
+	display: none;
+}
+
+.search-wrap>a:hover {
+	color: black;
+	background-color: #ccc;
+}
+
+.search-wrap>.fa-search:hover {
+	background-color: red;
+
+	color: #ccc;
+}
+
+/* main-wrap*/
+
+.main-wrap {
+	height: 100vh;
+	background-size: cover;
+	opacity: 0.75;
+	position: relative;
+	/* background-image: url('../img/parallax1.jpg')no-repeat center; */
+	background-image: url('../img/parallax1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.main-logo {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+
+	color: white;
+	top: 50%;
+	transform: translateY(-50%);
+	font-weight: normal;
+	letter-spacing: 10px;
+}
+
+.main-logo>div {
+	background-color: black;
+	padding: 12px 24px;
+	display: inline-block;
+}
+
+.main-logo span {
+	display: none;
+}
+
+/* about-wrap */
+.about-wrap {
+	color: #888;
+}
+
+.abouts {
+	padding: 16px 0;
+}
+
+.abouts>article {
+	width: 100%;
+	float: left;
+	padding: 16px;
+}
+
+
+
+.abouts>.photo>h4 {
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.abouts .fa-user {
+	margin-right: 16px;
+}
+
+.abouts>.photo>img {
+	border-radius: 5px;
+	opacity: 0.6;
+}
+
+.abouts>.photo>img:hover {
+	opacity: 1;
+}
+
+.abouts>.about {
+	display: none;
+	line-height: 150%;
+}
+
+.skills>h4 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 24px;
+}
+
+.skills>h5 {
+	font-weight: normal;
+	letter-spacing: 10px;
+	font-size: 16px;
+	padding: 16px 0;
+}
+
+.skill>.bars {
+	background-color: #ccc;
+}
+
+.skill>.bars>.bar {
+	background-color: #555;
+	color: white;
+	padding: 8px;
+	text-align: center;
+}
+
+.skill-grp> :nth-child(1) .bar {
+	width: 90%;
+}
+
+.skill-grp> :nth-child(2) .bar {
+	width: 85%;
+}
+
+.skill-grp> :nth-child(3) .bar {
+	width: 75%;
+
+}
+
+/* pf-wrap */
+.pf-wrap {
+	padding: 16px 0;
+}
+
+.prjs {
+	color: #fff;
+	background-color: #666;
+	text-align: center;
+}
+
+.prj {
+	width: 100%;
+	float: left;
+	padding: 36px 0;
+}
+
+.prj>h3 {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.pf-banner {
+	background-image: url(../img/parallax2.jpg);
+}
+
+.works {
+	color: #888;
+}
+
+.work {
+	width: 100%;
+	float: left;
+}
+
+.work:hover {
+	opacity: 0.7;
+}
+
+.pf-wrap.bts {
+	text-align: center;
+	padding: 32px 0;
+}
+
+.bt-load {
+	border: none;
+	background-color: #eee;
+	color: black;
+	padding: 16px;
+}
+
+.bt-load:hover {
+	background-color: #ccc;
+}
+
+/* contact-wrap */
+.contact-banner {
+	background-image: url(../img/parallax3.jpg);
+}
+
+.contacts {
+	color: #888;
+}
+
+.map {
+	float: left;
+	width: 30%;
+}
+
+.map>img {
+	border-radius: 5px;
+}
+
+.contact-form {
+	float: right;
+	width: 100%;
+}
+
+.info {
+	padding: 8px 0;
+	font-size: 20px;
+}
+
+.info>.fa {
+	width: 30px;
+}
+
+.info>.fa:hover {
+	color: black;
+}
+
+.contact-form>P {
+	padding: 16px 0;
+}
+
+.contact-form>p>.fa {
+	font-size: 14px;
+}
+
+.contact-form input {
+	border: 1px solid#aaa;
+	padding: 16px;
+	width: 100%;
+	margin-bottom: 1%;
+	float: left;
+}
+
+.contact-form .bts {
+	padding-top: 12px;
+	text-align: right;
+}
+
+.contact-form .bt-send {
+	border: none;
+	padding: 16px;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.contact-form .bt-send:hover {
+	background-color: #eee;
+	color: black;
+}
+
+/* footer */
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 80px 0;
+	margin-top: 80px;
+	opacity: 1;
+}
+
+.footer .bt-top {
+	color: #000;
+	padding: 12px 16px;
+	font-size: 16px;
+	border: none;
+	background-color: #eee;cursor: pointer;
+}
+.footer .bt-top:hover{background-color: #ccc;}
+.footer .bt-top>.fa {
+	margin: 20px;
+}
+
+.footer a {color: white;text-decoration: none;}
+.footer a:hover{color: #ccc;}
+.footer > .links{font-size: 24px;padding: 24px 0;}
+.footer > .copyright >a:hover{color: #156812;}
+
+
+
+/* 반응형 */
+@media screen and (min-width:576px) {
+	.navi-wrap>a:not(:first-child) {
+		display: block;
+	}
+
+	.search-wrap>.fa-bars {
+		display: none;
+	}
+
+	.search-wrap>.fa-search {
+		display: block;
+	}
+
+
+	.main-logo span {
+		display: inline;
+	}
+
+	.abouts>article {
+		width: 50%;
+	}
+
+	.abouts>.about {
+		display: block;
+	}
+
+	.prj {
+		width: 50%;
+	}
+
+	.work {
+		width: 48%;
+		margin: 1%;
+	}
+}
+
+@media screen and (min-width:992px) {
+	.prj {
+		width: 25%;
+	}
+
+	.work {
+		width: 23%;
+		margin: 1%;
+	}
+
+	.map {
+		width: 30%;
+	}
+
+	.contact-form {
+		width: 70%;
+		padding-left: 32px;
+	}
+
+	.contact-form input[name='name'] {
+		width: 49%;
+		margin-right: 1%;
+	}
+
+	.contact-form input[name='email'] {
+		width: 49%;
+		margin-left: 1%;
+	}
+}
+
+@media screen and (min-width:992px) {}

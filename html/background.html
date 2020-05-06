@@ -22,16 +22,21 @@
 		background-image: radial-gradient(#9deb7f, #256225 ...);
 		background: 컬러 url() repeat position
 		*/
-		.page {height: 100vh;}
+		.page {
+			height: 100vh;
+		}
+
 		.page1 {
-			background-color: #cfcfa4; 
+			background-color: #cfcfa4;
 			background-image: url('../img/p1.jpg'), url('../img/bg1.gif');
 			background-repeat: no-repeat, repeat;
 			background-position: right bottom, top left;
 		}
+
 		.page2 {
 			background: #ade0a0 url('../img/map.jpg') no-repeat center;
 		}
+
 		.page3 {
 			background-color: #90bace;
 			background-image: url('../img/parallax3.jpg');
@@ -40,12 +45,14 @@
 			background-size: cover;
 			background-attachment: fixed;
 		}
+
 		.page4 {
-			background-image: linear-gradient(275deg,red ,coral);
+			background-image: linear-gradient(275deg, red, coral);
 			/* background-image: radial-gradient(#9f3da8, #0dda0d); */
 		}
 	</style>
 </head>
+
 <body>
 	<!-- .page.page$*4 -->
 	<div class="page page1"></div>
@@ -53,4 +60,5 @@
 	<div class="page page3"></div>
 	<div class="page page4"></div>
 </body>
+
 </html>

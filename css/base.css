@@ -10,8 +10,8 @@ h6,
 p,
 div,
 input,
-textarea,
-select {
+textarea,form,
+select,header,section,article,footer {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
