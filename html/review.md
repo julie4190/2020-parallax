@@ -27,4 +27,44 @@ img {
 	vertical-align: bottom;
 }
 CSS 정리
-기타
+text관련
+font-family:'Loto', sans-serif;
+font-size:16px(기본)
+color:red,#foo.rgb(255,0,0,1),jsl...
+font-weight:nomal,lighter,bold,bolder,200,300,400...
+fonto-style;:italic, oblique
+text-align: center,left,right,ju
+
+Design관련
+border: 1px soild(deshed,dotted,double,inset,outset,groove,none)
+background-image: url('../img/bg.gif');
+		background-repeat: (repeat) | no-repeat | repeat-x | repeat-y
+		background-position: (left top) | center | [left, center, right] [top center bottom]
+		background-position: 200px 100px | 30% 50% ...
+		background-size: (자기사이즈) 100% auto | auto 100% | cover
+		background-size: 200px 500px
+		background-attachment: fixed <-- parallax효과
+		background-image: linear-gradient([각도], #9deb7f, #256225 ...);
+		[각도]: to left | to left top | 45deg
+		background-image: radial-gradient(#9deb7f, #256225 ...);
+		background: 컬러 url() repeat position
+		
+
+
+
+
+
+
+
+
+layout관련
+float:left,right,none
+position: relative(기준점),absolute,fixd(화면을 기준점)
+flex
+grid
+
+Dimension관련
+width,height-고정값
+max-width, max-height-최대값
+min-width, min-height-최소값
+maingin, padding...
