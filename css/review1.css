@@ -2,53 +2,18 @@
 /* font-family: 'Lato', sans-serif; */
 
 /********** 공통사항 **********/
-body {
-	font-family: 'Lato', sans-serif;
-	height: 5000px;
-}
-
-.wrapper {
-	max-width: 980px;
-	margin: auto;
-	padding: 40px 16px;
-}
-
-.wrapper>.title {
-	text-align: center;
-	font-size: 24px;
-	font-weight: normal;
-	padding: 16px 0;
-}
-
-.wrapper>.slogan {
-	text-align: center;
-	font-size: 16px;
-	font-weight: normal;
-	padding: 16px 0;
-	font-style: italic;
-	line-height: 150%;
-}
-
-.wrapper>.desc {
-	line-height: 150%;
-	padding: 16px 0;
-}
-
+body {font-family: 'Lato', sans-serif; height: 5000px;}
+.wrapper {max-width: 980px; margin: auto; padding: 40px 16px;}
+.wrapper > .title {text-align: center; font-size: 24px; font-weight: normal; padding: 16px 0;}
+.wrapper > .slogan {text-align: center; font-size: 16px; font-weight: normal; padding: 16px 0; font-style: italic; line-height: 150%;}
+.wrapper > .desc {line-height: 150%; padding: 16px 0;}
 .banner {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
-
-.banner>h2 {
-	font-weight: normal;
-	font-size: 36px;
-	letter-spacing: 10px;
-	color: #fff;
-	text-align: center;
-	padding: 200px 0;
-}
+.banner > h2 {font-weight: normal; font-size: 36px; letter-spacing: 10px; color: #fff; text-align: center; padding: 200px 0;}
 
 
 /********** header **********/
@@ -350,8 +315,7 @@ body {
 	text-align: center;
 	padding: 80px 0;
 	margin-top: 80px;
-	opacity: 0.7;display: block;
-	
+	opacity: 0.7;
 }
 
 .footer:hover {
@@ -460,3 +424,4 @@ body {
 	}
 }
 
+@media screen and (min-width: 992px) {}
